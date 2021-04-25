@@ -1,7 +1,7 @@
 package com.gersy.smartled.okhttp.promise.runthread;
 
 
-import com.piesat.outsideinvestigate.okhttp.promise.Promise;
+import com.gersy.smartled.okhttp.promise.Promise;
 
 import org.jetbrains.annotations.NotNull;
 

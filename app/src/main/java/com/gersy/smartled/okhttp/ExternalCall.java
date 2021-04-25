@@ -1,8 +1,9 @@
 package com.gersy.smartled.okhttp;
 
 
-import com.piesat.outsideinvestigate.okhttp.promise.Promise;
-import com.piesat.outsideinvestigate.okhttp.promise.responsehandler.ResponseHandler;
+
+import com.gersy.smartled.okhttp.promise.Promise;
+import com.gersy.smartled.okhttp.promise.responsehandler.ResponseHandler;
 
 import java.io.File;
 import java.io.IOException;

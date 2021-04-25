@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
-import java.util.logging.Level;
 
 import okhttp3.Call;
 import okhttp3.MediaType;
@@ -25,7 +24,6 @@ public final class OkhttpRequest {
 
     private static OkhttpRequest mInstance;
     private OkHttpClient mOkHttpClient;
-    private HttpLoggingInterceptor loggingInterceptor;
     private CookieHandler cookieJar;
 
     public static final StringResponseHandler STRING_RESPONSE_HANDLER = new StringResponseHandler();
@@ -38,7 +36,6 @@ public final class OkhttpRequest {
         OkHttpClient.Builder builder = new OkHttpClient.Builder();
 
         //添加OkGo默认debug日志
-        builder.addInterceptor(loggingInterceptor);
         setTimeout(builder);
 
         cookieJar = new CookieHandler();

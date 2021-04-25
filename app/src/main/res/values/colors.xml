@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="app_theme_color">#888888</color>
+    <color name="transparent">#00000000</color>
+    <color name="bg_white">#fff</color>
+    <color name="font_color">#151515</color>
+    <color name="divider">#cdcdcd</color>
+    <color name="gray_80">#808080</color>
+    <color name="gray_a0">#a0a0a0</color>
+    <color name="gray_b0">#b0b0b0</color>
+    <color name="gray_c0">#c0c0c0</color>
+    <color name="gray_d0">#d0d0d0</color>
+    <color name="gray_e0">#e0e0e0</color>
+    <color name="gray_f0">#f0f0f0</color>
+    <color name="gray_f1">#E9EAEA</color>
+    <color name="gray_77">#777777</color>
+    <color name="light_gray">#F2F3F5</color>
+    <color name="font_black">#151515</color>
+    <color name="global_bg">#9000</color>
+</resources>

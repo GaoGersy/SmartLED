@@ -1,5 +1,6 @@
 package com.gersy.smartled.activity;
 
+import android.graphics.Color;
 import android.view.View;
 import android.widget.SeekBar;
 import android.widget.TextView;
@@ -152,8 +153,13 @@ public class MainActivity extends BaseActivity {
         if (currentColor==colorEnvelope.getColor()){
             return;
         }
+        currentColor=colorEnvelope.getColor();
         int[] argb = colorEnvelope.getArgb();
-        String color="["+argb[1]+","+argb[2]+","+argb[3]+"]";
+        int rgb = Color.rgb(argb[1], argb[2], argb[3]);
+        float[] floats = new float[3];
+        Color.colorToHSV(rgb,floats);
+        int color = Math.round(floats[0]/360*255)*255;
+//        String color="["+argb[1]+","+argb[2]+","+argb[3]+"]";
         OkhttpRequest.get("http://192.168.4.1/setColor?color="+color).async(new HttpCallback<String>() {
             @Override
             public void onSuccess(String result) {
